@@ -4,7 +4,7 @@ public class BookShop {
 
     protected List<String[]> loadBooks(){
         ReadDelimitedFile readDelimitedFile = new ReadDelimitedFile();
-        return readDelimitedFile.getFileData("books.csv");
+        return readDelimitedFile.getFileData("book.csv");
     }
 
     protected String bookInfo(String[] book){
